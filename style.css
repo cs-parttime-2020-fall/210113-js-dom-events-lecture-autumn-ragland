@@ -1,0 +1,27 @@
+body {
+    background-color: #92BCEA;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 1%;
+    text-align: center;
+    color : #ffffff;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container > div {
+    margin: 1%;
+    padding: 1%;
+    border: 3px solid #000000;
+    border-radius: 5px;
+}
+
+form > div {
+    margin: 5%;
+}
+
+.shadowBlue {
+    background-color: #7A93AC;
+}
